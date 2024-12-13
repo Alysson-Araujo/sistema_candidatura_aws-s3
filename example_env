@@ -1,0 +1,7 @@
+AWS_ACCESS_KEY_ID=your_aws_access_key
+AWS_SECRET_ACCESS_KEY=your_aws_secret_key
+AWS_BUCKET_NAME=your_bucket_name
+AWS_REGION=us-east-1
+
+MONGODB_URI=mongodb://localhost:27017
+MONGODB_DB_NAME=DB_NAME

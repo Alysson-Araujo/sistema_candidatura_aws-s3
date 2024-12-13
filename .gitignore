@@ -1,0 +1,68 @@
+# Sistema
+*.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.eggs
+*.log
+
+# Virtualenv
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de Teste
+.pytest_cache/
+.tox/
+.coverage
+.cache
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.pytest_cache/
+
+# Docker
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.log.*
+docker-compose.override.yml
+
+# Configurações locais
+local_settings.py
+*.env
+.env.*
+
+# AWS
+.aws/
+
+# Bancos de dados locais
+*.db
+*.sqlite3
+*.db-journal
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
+
+# Arquivos de deploy
+*.pem
