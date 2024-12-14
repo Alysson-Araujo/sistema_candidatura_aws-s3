@@ -8,7 +8,7 @@ from io import BytesIO
 class S3Service:
     def __init__(self):
         logging.basicConfig(level=logging.INFO)
-        session = boto3.Session(profile_name="aula_app_runner")
+        session = boto3.Session(profile_name=settings.aws_profile_name)
         self.s3_client = session.client("s3")
         
         self.bucket_name = settings.aws_bucket_name
