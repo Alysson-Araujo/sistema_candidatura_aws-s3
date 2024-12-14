@@ -7,6 +7,7 @@ COPY . /app/
 
 ENV AWS_BUCKET_NAME=bucket-name
 ENV AWS_REGION=us-east-1 
+ENV AWS_PROFILE_NAME=default
 
 ENV MONGODB_URI=your-mongodb-uri
 ENV MONGODB_DB_NAME=your-db-name
